@@ -2,30 +2,34 @@
   height: 35px;
   width: 300px;
   border-radius: 25px;
-  color: white;
+  color: var(--button-font-color);
   font-size: 14px;
-  border: 1px solid grey;
+  border: var(--button-border-unfocused);
   -webkit-transition: background-color .218s, border-color .218s, box-shadow .218s;
   transition: background-color .218s, border-color .218s, box-shadow .218s;
 
 }
 
 :host(.button) button:hover{
-  border: 1px solid  white;
-  background: rgb(64, 22, 22);
+  border: var(--button-border-focused);
 
 }
 
 :host(.primary) button{
-  background: var(--primary-button-background);
+  background: var(--primary-button-background-unfocused);
  }
 
+ :host(.primary) button:hover{
+  background: var(--primary-button-background-focused);
+ }
+
+
 :host(.secondary) button{
-  background: var(--secondary-button-background);
+  background: var(--secondary-button-background-unfocused);
  }
 
 :host(.tertiary) button{
-  background: var(--tertiary-button-background);
+  background: var(--tertiary-button-background-unfocused);
  }
 
 :host(.danger) button{ }

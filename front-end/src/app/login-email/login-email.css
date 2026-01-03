@@ -1,0 +1,21 @@
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color:rgba(217, 217, 217, 0.035);
+  color: white;
+  width: 300px;
+  font-size: 14px;
+  -webkit-transition: background-color .218s, border-color .218s, box-shadow .218s;
+  transition: background-color .218s, border-color .218s, box-shadow .218s;
+}
+
+input[type=email]:hover{
+  -webkit-transition: background-color .218s, border-color .218s, box-shadow .218s;
+  transition: background-color .218s, border-color .218s, box-shadow .218s;
+  border: 1px solid white;
+}

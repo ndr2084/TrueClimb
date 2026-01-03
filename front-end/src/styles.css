@@ -18,11 +18,15 @@
   --app-brand-color_2: #6e91b8;
   --app-brand-color_3: #58355E;
 
-  --primary-button-background: #1D0B0E;
-  --secondary-button-background: #16222E;
-  --tertiary-button-background: none
-  --button-border: 1px solid #grey;
+  --primary-button-background-unfocused: #1D0B0E;
+  --primary-button-background-focused: rgb(64, 22, 22);
+  --secondary-button-background-unfocused: #16222E;
+  --tertiary-button-background-unfocused: none;
+  --button-border-unfocused: 1px solid grey;
+  --button-border-focused: 1px solid  white;
+  --button-font-color: white;
   --clickable-text-color: #FFEB0A;
+  --standard-gap: 20px;
 
 
   /*display*/
@@ -42,6 +46,7 @@ html{
 
 body {
     font-family: var(--global-font);
+    color: white;
     font-size: 1.2em;
     line-height: 1.5;
     overflow: scroll;
@@ -68,3 +73,22 @@ h1{
   min-height: 100%;
 }
 
+
+.form-font{
+  font-size: 18px;
+  color: white;
+}
+
+.app-title{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 20px auto;
+  flex-grow: 0;
+  flex-shrink: 0;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: var(--standard-gap);
+  }

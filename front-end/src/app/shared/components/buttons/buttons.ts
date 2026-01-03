@@ -4,7 +4,7 @@ type ButtonVariant = 'primary' | 'secondary' | 'tertiary' | 'danger';
 type ButtonType = 'button' | 'reset' | 'submit';
 
 @Component({
-  selector: 'app-buttons',
+  selector: 'app-button',
   imports: [],
   host:{
     '[class.button]': "true",
