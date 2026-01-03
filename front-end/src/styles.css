@@ -13,17 +13,15 @@
   --bold: 800;
 
   /*colors*/
-  --app-background-color: #01040C;
-  --app-brand-color_1: #A9FF70;
-  --app-brand-color_2: #88C0FF;
-  --app-brand-color_3: #732017;
+  --app-background-color: linear-gradient(180deg, #070111 0.000%, #02072c 50.000%, #000000 100.000%);
+  --app-brand-color_1: #748b51;
+  --app-brand-color_2: #6e91b8;
+  --app-brand-color_3: #58355E;
 
-  --primary-button-background: var(--app-brand-color_3);
-  --primary-button-border: 1px solid #FF0000;
-
+  --primary-button-background: #1D0B0E;
   --secondary-button-background: #16222E;
-  --secondary-button-border: 1px solid #009BFF;
-
+  --tertiary-button-background: none
+  --button-border: 1px solid #grey;
   --clickable-text-color: #FFEB0A;
 
 
@@ -37,21 +35,27 @@
     padding: 0px;
 }
 
-html, body {
+html{
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
     font-family: var(--global-font);
     font-size: 1.2em;
     line-height: 1.5;
-    margin: 0 auto;
     overflow: scroll;
-    width: 100%;
-    height: 100vh;
-    background-color: var(--app-background-color);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: var(--app-background-color);
+    border: 1px solid white;
 }
 
 h1{
     color: var(--app-brand-color_1);
     text-align: left;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: var(--bold);
     line-height: 1.3;
 }

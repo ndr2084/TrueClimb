@@ -1,0 +1,29 @@
+:host(.button) button{
+  height: 35px;
+  width: 300px;
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  border: 1px solid grey;
+  -webkit-transition: background-color .218s, border-color .218s, box-shadow .218s;
+  transition: background-color .218s, border-color .218s, box-shadow .218s;
+}
+
+:host(.button) button:hover{
+  border: 1px solid  white;
+}
+
+:host(.primary) button{
+  background: var(--primary-button-background);
+ }
+
+:host(.secondary) button{
+  background: var(--secondary-button-background);
+ }
+
+:host(.tertiary) button{
+  background: var(--tertiary-button-background);
+ }
+
+:host(.danger) button{ }
+
