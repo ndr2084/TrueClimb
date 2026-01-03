@@ -1,18 +1,14 @@
-<!--LOGIN CONTAINER BEGINS-->
-<div class="login-container">
-    <!--TITLE COMPONENT BEGINS-->
-    <div class="app-title">
+<div class="center-container">
+
+  <div class="app-title">
         <h1>True</h1>
         <h1>Climb</h1>
     </div>
-    <!--TITLE COMPONENT ENDS-->
 
-
-    <!--LOGIN COMPONENT BEGINS-->
     <app-card variant="primary">
     <article class="sign-in">
         <p class="user-cue">Welcome Back!</p>
-        <app-buttons type="button" variant="primary">continue with email</app-buttons>
+        <app-buttons type="button" variant="primary" [routerLink]="['/login-email']">continue with email</app-buttons>
         <button class="gsi-material-button" style="width:300">
           <div class="gsi-material-button-state"></div>
           <div class="gsi-material-button-content-wrapper">
@@ -32,5 +28,5 @@
         <a class="clickable-text" href="url">forget your login?</a>
     </article>
   </app-card>
-    <!--LOGIN COMPONENT ENDS-->
+
 </div>
