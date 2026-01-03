@@ -1,0 +1,18 @@
+:host(.primary) div{
+  background-color:rgba(217, 217, 217, 0.035);
+  padding: 20px;
+  border-radius: 25px;
+  border: 1px solid rgba(215, 215, 215, 0.1); /* Low opacity */
+  -webkit-transition: background-color .218s, border-color .218s, box-shadow .218s;
+  transition: background-color 2.218s, border-color 2.218s, box-shadow 2.218s;
+  }
+
+:host(.primary) div:hover{
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Low opacity */
+  -webkit-transition: background-color 1.218s, border-color 1.218s, box-shadow 1.218s;
+  transition: background-color 2.218s, border-color 2.218s, box-shadow 2.218s;
+}
+
+:host(.secondary) div{
+  background: #FF0000
+}

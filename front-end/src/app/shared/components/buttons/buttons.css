@@ -7,10 +7,13 @@
   border: 1px solid grey;
   -webkit-transition: background-color .218s, border-color .218s, box-shadow .218s;
   transition: background-color .218s, border-color .218s, box-shadow .218s;
+
 }
 
 :host(.button) button:hover{
   border: 1px solid  white;
+  background: rgb(64, 22, 22);
+
 }
 
 :host(.primary) button{

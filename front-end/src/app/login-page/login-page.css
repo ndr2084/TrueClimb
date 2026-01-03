@@ -87,6 +87,7 @@ h1{
   white-space: nowrap;
   width: 300px;
   border-color: #8e918f;
+
 }
 
 .gsi-material-button .gsi-material-button-icon {
@@ -94,6 +95,7 @@ h1{
   margin-right: 10px;
   min-width: 20px;
   width: 20px;
+
 }
 
 .gsi-material-button .gsi-material-button-content-wrapper {
@@ -108,6 +110,7 @@ h1{
   justify-content: center;
   position: relative;
   width: 100%;
+
 }
 
 .gsi-material-button .gsi-material-button-contents {
@@ -118,6 +121,7 @@ h1{
   overflow: hidden;
   text-overflow: ellipsis;
   vertical-align: top;
+
 }
 
 .gsi-material-button .gsi-material-button-state {
@@ -129,6 +133,7 @@ h1{
   position: absolute;
   right: 0;
   top: 0;
+
 }
 
 .gsi-material-button:disabled {
@@ -143,6 +148,7 @@ h1{
 
 .gsi-material-button:disabled .gsi-material-button-contents {
   opacity: 38%;
+
 }
 
 .gsi-material-button:disabled .gsi-material-button-icon {
@@ -153,11 +159,13 @@ h1{
 .gsi-material-button:not(:disabled):focus .gsi-material-button-state {
   background-color: white;
   opacity: 12%;
+
 }
 
 .gsi-material-button:not(:disabled):hover {
   -webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
   box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .30), 0 1px 3px 1px rgba(60, 64, 67, .15);
+
 }
 
 .gsi-material-button:not(:disabled):hover .gsi-material-button-state {
